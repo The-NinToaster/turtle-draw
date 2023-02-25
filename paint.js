@@ -38,16 +38,16 @@ function onMouseDown(e)
 {
 
     draw = true;
-    document.getElementById("img").src="/pencil down.png";
-    document.getElementById("big").src="/pencil down.png";
+    document.getElementById("img").src="pencil_down.png";
+    document.getElementById("big").src="pencil_down.png";
 
 }
 
 function onMouseUp(e)
 {
     draw = false;
-    document.getElementById("img").src="/pencil up.png";
-    document.getElementById("big").src="/pencil up.png";
+    document.getElementById("img").src="pencil_up.png";
+    document.getElementById("big").src="pencil_up.png";
 }
 
 
