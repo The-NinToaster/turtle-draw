@@ -38,16 +38,26 @@ function onMouseDown(e)
 {
 
     draw = true;
+<<<<<<< HEAD
     document.getElementById("img").src="pencil_down.png";
     document.getElementById("big").src="pencil_down.png";
+=======
+    document.getElementById("img").src="pencil down.png";
+    document.getElementById("big").src="pencil down.png";
+>>>>>>> 301a726b28ea0c168f2885f5b57aec1961a478e6
 
 }
 
 function onMouseUp(e)
 {
     draw = false;
+<<<<<<< HEAD
     document.getElementById("img").src="pencil_up.png";
     document.getElementById("big").src="pencil_up.png";
+=======
+    document.getElementById("img").src="pencil up.png";
+    document.getElementById("big").src="pencil up.png";
+>>>>>>> 301a726b28ea0c168f2885f5b57aec1961a478e6
 }
 
 
